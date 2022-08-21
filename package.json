@@ -1,0 +1,21 @@
+{
+  "name": "rest-template",
+  "version": "1.0.0",
+  "description": "Template for Node.js RestAPIS",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.20.1",
+    "sequelize-model-trail": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
